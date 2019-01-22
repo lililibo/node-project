@@ -12,19 +12,23 @@ html, body {
     flex-shrink: 0; 
     width: 256px;
     height: 100%;
-    background: red;
+    background: #252526;
   }
-  
+  .layout-side a:hover{
+    color: #e57869;
+    text-decoration: none;
+  }
   .layout-main {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background: #ccc;
+    background: #fff;
   }
   
   .layout-header {
     height: 50px;
-    background: green;
+    background: #252526;
+    color: #fff;
   }
   
   .layout-body {
